@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 
 export default function BlogPage() {
@@ -39,7 +40,7 @@ export default function BlogPage() {
             </p>
 
             {/* Embedded Image */}
-            <img
+            <Image
               src="/images/blog1.jpg"
               alt="Technology and Travel"
               className="w-full rounded shadow-lg my-6"
@@ -48,8 +49,10 @@ export default function BlogPage() {
             <h3 className="text-xl md:text-2xl font-semibold mb-4 text-gray-800">
               Key Innovations in Travel
             </h3>
+            
             <p className="text-gray-800 leading-relaxed mb-4">
               Here are some of the major ways technology is shaping travel:
+              </p>
               <ul className="list-disc ml-5 mt-2 text-gray-600">
                 <li>
                   Travel Apps: Simplify bookings, itineraries, and reservations.
@@ -67,10 +70,12 @@ export default function BlogPage() {
                   passports.
                 </li>
               </ul>
-            </p>
+              
+            
+            
 
             {/* Embedded Image */}
-            <img
+            <Image
               src="/images/blog2.jpg"
               alt="Innovative Travel Technology"
               className="w-full rounded shadow-lg my-6"
@@ -89,7 +94,7 @@ export default function BlogPage() {
               Related Posts
             </h3>
             <div className="bg-gray-100 p-4 rounded shadow-lg">
-              <img
+              <Image
                 src="/images/related-post.jpg"
                 alt="Travel Apps"
                 className="w-full rounded mb-4"
@@ -103,7 +108,7 @@ export default function BlogPage() {
               </p>
             </div>
             <div className="bg-gray-100 p-4 rounded shadow-lg">
-              <img
+              <Image
                 src="/images/smartpost2.jpg"
                 alt="Smart Luggage"
                 className="w-full rounded mb-4"

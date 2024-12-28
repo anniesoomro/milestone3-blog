@@ -8,13 +8,13 @@ export default function ContactUs() {
       
       {/* Contact Form Section */}
       <div className="container mx-auto px-4 py-12">
-        <div className="md:flex md:space-x-8">
+        <div className="md:flex md:space-x-12">
           {/* Left Content */}
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
               Get in Touch
             </h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-black mb-6">
               We’d love to hear from you! Whether you have a question about
               travel technology, want to collaborate, or simply want to say hi,
               feel free to drop us a message.
@@ -25,20 +25,20 @@ export default function ContactUs() {
                   {/* Replace with your preferred icon */}
                   📍
                 </span>
-                <p className="ml-4 text-gray-700">123 Tech Lane, Travel City</p>
+                <p className="ml-4 text-black">123 Tech Lane, Travel City</p>
               </div>
               <div className="flex items-center">
                 <span className="w-8 h-8 text-blue-500">
                   {/* Replace with your preferred icon */}
                   📞
                 </span>
-                <p className="ml-4 text-gray-700">+123 456 789</p>
+                <p className="ml-4 text-black">+123 456 789</p>
               </div>
               <div className="flex items-center">
                 <span className="w-8 h-8 text-blue-500">
                   {/* Replace with your preferred icon */}✉
                 </span>
-                <p className="ml-4 text-gray-700">
+                <p className="ml-4 text-black">
                   contact@exploringhorizons.com
                 </p>
               </div>
@@ -51,7 +51,7 @@ export default function ContactUs() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-gray-700 font-semibold mb-2"
+                  className="block text-black font-semibold mb-2"
                 >
                   Name
                 </label>
@@ -65,7 +65,7 @@ export default function ContactUs() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-gray-700 font-semibold mb-2"
+                  className="block text-black font-semibold mb-2"
                 >
                   Email
                 </label>
@@ -79,7 +79,7 @@ export default function ContactUs() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-gray-700 font-semibold mb-2"
+                  className="block text-black font-semibold mb-2"
                 >
                   Message
                 </label>

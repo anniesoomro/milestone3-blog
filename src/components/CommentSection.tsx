@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
@@ -18,6 +18,10 @@ export default function CommentSection({ postId }: CommentSectionProps) {
   const [newComment, setNewComment] = useState("");
   const [authorName, setAuthorName] = useState("");
   const [editingCommentId, setEditingCommentId] = useState<string | null>(null);
+
+  useEffect(() => {
+    console.log(`Fetching comments for postId: ${postId}`);
+  }, [postId]);
 
   const handleAddComment = () => {
     if (newComment.trim() && authorName.trim()) {

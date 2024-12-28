@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Card, CardContent, CardTitle } from "../components/ui/card";
 interface BlogCardProps {
   post: { id: string; title: string; description: string; date: string; imageUrl: string };

@@ -108,12 +108,12 @@ export default function Post({ params }: { params: Promise<{ id: string }> }) {
 
   return (
     <div className="max-w-3xl mx-auto p-5">
-      <h1 className="md:text-4xl text-3xl font-bold text-red-600 text-center">
+      <h1 className="md:text-4xl text-3xl font-bold text-blue-950 text-center">
         {" "}
         {post.title}
       </h1>
       {post.image && (
-        <img 
+        <img
         src={post.image}
         alt={post.title}
         className="w-full h-auto rounded-md mt-4"/>
