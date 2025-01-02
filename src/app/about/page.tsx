@@ -45,17 +45,18 @@ export default function About() {
         {/* Right Images */}
         <div className="md:w-1/3 md:pl-6 flex flex-wrap justify-center space-y-4">
           <Image src="/images/travel.jpg"
-            alt="Travel Technology"
+            alt="Travel Technology"width={300} height={300}
             className="w-full md:w-5/6 rounded-lg shadow-xl transition-transform duration-500 hover:scale-105"
           />
           <Image
             src="/images/exploring.jpg"
-            alt="Exploring Destinations"
+            alt="Exploring Destinations" width={300} height={300}
             className="w-full md:w-5/6 rounded-lg shadow-xl transition-transform duration-500 hover:scale-105"
           />
           <Image
             src="/images/smart.jpg"
             alt="Smart Travel"
+            width={300} height={300}
             className="w-full md:w-5/6 rounded-lg shadow-xl transition-transform duration-500 hover:scale-105"
           />
         </div>

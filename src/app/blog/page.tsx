@@ -42,7 +42,7 @@ export default function BlogPage() {
             {/* Embedded Image */}
             <Image
               src="/images/blog1.jpg"
-              alt="Technology and Travel"
+              alt="Technology and Travel"width={500} height={500}
               className="w-full rounded shadow-lg my-6"
             />
 
@@ -77,7 +77,7 @@ export default function BlogPage() {
             {/* Embedded Image */}
             <Image
               src="/images/blog2.jpg"
-              alt="Innovative Travel Technology"
+              alt="Innovative Travel Technology"width={500} height={500}
               className="w-full rounded shadow-lg my-6"
             />
 
@@ -95,7 +95,7 @@ export default function BlogPage() {
             </h3>
             <div className="bg-gray-100 p-4 rounded shadow-lg">
               <Image
-                src="/images/related-post.jpg"
+                src="/images/related-post.jpg" width={500} height={500}
                 alt="Travel Apps"
                 className="w-full rounded mb-4"
               />
@@ -110,7 +110,7 @@ export default function BlogPage() {
             <div className="bg-gray-100 p-4 rounded shadow-lg">
               <Image
                 src="/images/smartpost2.jpg"
-                alt="Smart Luggage"
+                alt="Smart Luggage"width={500} height={500}
                 className="w-full rounded mb-4"
               />
               <h4 className="text-lg font-bold text-gray-800">

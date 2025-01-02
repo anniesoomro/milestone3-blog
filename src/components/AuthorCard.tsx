@@ -9,7 +9,7 @@ export default function AuthorCard() {
         <Image
           className="w-16 h-16 rounded-full mr-4 object-cover border-2 border-red-700"
           src="/images/author.png"
-          alt="Author-image"
+          alt="Author-image"width={200} height={200}
         />
 
         <div>
